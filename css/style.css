@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700|Roboto:300|Work+Sans:400,500,700');
+
+body {
+	/*font-family: 'Playfair Display', serif;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Work Sans', sans-serif;*/
+	font-family: 'Work Sans', sans-serif;
+}
+
+p {
+	font-size: 15pt;
+}
+
+p.uppercased {
+	font-size: 14pt;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+h1 {
+	font-family: 'Playfair Display', serif;
+	font-size: 48pt;
+	font-weight: bold;
+	line-height: 60pt;
+}
+
+h2 {
+	font-family: 'Playfair Display', serif;
+	font-weight: bold;
+	font-size: 38pt;
+}
