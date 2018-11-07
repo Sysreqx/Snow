@@ -59,6 +59,7 @@ a {
 /* Header */
 header {
 	color: #fff;
+	height: 100vh;
 	flex-direction: column;
 	position:relative;
 }
@@ -151,15 +152,13 @@ header .active {
 }
 
 .header-main p {
-
-	margin-top: 17%;
-
-	text-transform: uppercase;
+margin-top: 23%;
+text-transform: uppercase;
 }
 
 .header-main h1 {
 	margin-top: 0;
-	margin-bottom: 22%;
+	margin-bottom: 37%;
 }
 
 .header-main h1 span {
@@ -216,3 +215,163 @@ header .active {
 .demo a:hover {
 	opacity: .5;
 }
+
+/* Main */
+/* About */
+
+main #about {
+
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 20%;
+
+}
+
+main #signature {
+	padding: 5%;
+}
+
+/* Numbers */
+main #numbers {
+	background-image: url("../images/pattern-bg.png");
+}
+
+main #numbers .flex-container {
+	
+    justify-content: space-between;
+    padding: 6% 0;
+
+}
+
+main #numbers p {
+	color: #fff;
+	margin: 0;
+}
+
+main #numbers .number {
+	width: 100%;
+	align-items: center;
+	display: flex;
+}
+
+main #numbers .digit {
+	margin-bottom: 3%;
+}
+
+main #numbers img {
+
+    align-items: center;
+    padding: 7%;
+
+}
+
+/* Best Projects */
+#best-projects .flex-container {
+
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-top: 5%;
+
+}
+
+#best-projects p {
+	
+margin-top: 0;
+	
+padding: 0 11% 5%;
+	
+line-height: 24pt;
+}
+
+#best-projects #projects {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	align-items: center;
+	background-color: #cccccc;
+}
+
+#best-projects #projects .project {
+	display: flex;
+	flex-direction: column;
+	height: 300px;
+	background-color: #921f1f;
+}
+
+#best-projects #projects .project-1 {
+	background-image: url("images/project-1.jpg"); /* The image used */
+	background-color: #cccccc; /* Used if the image is unavailable */
+	height: 25%; /* You must set a specified height */
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; /* Resize the background image to cover the entire container */
+}
+#best-projects #projects .project-2 {
+	background-image: url("images/project-2.jpg"); /* The image used */
+	background-color: #cccccc; /* Used if the image is unavailable */
+	height: 25%; /* You must set a specified height */
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; /* Resize the background image to cover the entire container */
+}
+#best-projects #projects .project-3 {
+	background-image: url("images/project-3.jpg"); /* The image used */
+	background-color: #cccccc; /* Used if the image is unavailable */
+	height: 25%; /* You must set a specified height */
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; /* Resize the background image to cover the entire container */
+}
+#best-projects #projects .project-4 {
+	background-image: url("images/project-4.jpg"); /* The image used */
+	background-color: #cccccc; /* Used if the image is unavailable */
+	height: 25%; /* You must set a specified height */
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; /* Resize the background image to cover the entire container */
+}
+#best-projects #projects .project-5 {
+	background-image: url("images/project-5.jpg"); /* The image used */
+	background-color: #cccccc; /* Used if the image is unavailable */
+	height: 25%; /* You must set a specified height */
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; /* Resize the background image to cover the entire container */
+}
+#best-projects #projects .project-6 {
+	background-image: url("images/project-6.jpg"); /* The image used */
+	background-color: #cccccc; /* Used if the image is unavailable */
+	height: 25%; /* You must set a specified height */
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; /* Resize the background image to cover the entire container */
+}
+#best-projects #projects .project-7 {
+	background-image: url("images/project-7.jpg"); /* The image used */
+	background-color: #cccccc; /* Used if the image is unavailable */
+	height: 25%; /* You must set a specified height */
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; /* Resize the background image to cover the entire container */
+}
+#best-projects #projects .project-8 {
+	background-image: url("images/project-8.jpg"); /* The image used */
+	background-color: #cccccc; /* Used if the image is unavailable */
+	height: 25%; /* You must set a specified height */
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; /* Resize the background image to cover the entire container */
+}
+#best-projects #projects .project-9 {
+	background-image: url("images/project-9.jpg"); /* The image used */
+	background-color: #cccccc; /* Used if the image is unavailable */
+	height: 25%; /* You must set a specified height */
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; /* Resize the background image to cover the entire container */
+}
+
