@@ -152,8 +152,10 @@ header .active {
 }
 
 .header-main p {
-margin-top: 23%;
-text-transform: uppercase;
+
+margin-top: 23%;
+
+text-transform: uppercase;
 }
 
 .header-main h1 {
@@ -287,91 +289,90 @@ padding: 0 11% 5%;
 line-height: 24pt;
 }
 
-#best-projects #projects {
-	display: flex;
-	justify-content: space-between;
-	width: 100%;
-	align-items: center;
-	background-color: #cccccc;
-}
+/*#best-projects #projects {*/
+	/*display: flex;*/
+	/*justify-content: space-between;*/
+	/*width: 100%;*/
+	/*align-items: center;*/
+	/*background-color: #cccccc;*/
+/*}*/
 
-#best-projects #projects .project {
+/*#best-projects #projects .project {*/
+	/*display: flex;*/
+	/*flex-direction: column;*/
+	/*height: 300px;*/
+	/*background-color: #921f1f;*/
+/*}*/
+
+/* Flex Masonry */
+.flexbox {
+	display: -webkit-flex;
 	display: flex;
+	-webkit-flex-direction: column;
 	flex-direction: column;
-	height: 300px;
-	background-color: #921f1f;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	height: 98vw;
+}
+.flexbox p{
+	visibility: hidden;
+	color: #fff;
+	box-sizing: border-box;
+}
+.flexbox:hover img {
+	opacity: 0.6;
+}
+.flexbox .item {
+	position: relative;
+	width: 33.33%;
+}
+.flexbox .item img {
+	width: 98%;
+	box-sizing: border-box;
+	margin-bottom: 2%;
+	display: block;
+	transition: all .8s;
+}
+.flexbox .item .title {
+	position: absolute;
+	top: 48%;
+	left: 0;
+	width: 100%;
+	padding: 0 3%;
+	font-size: 30px;
+	text-shadow: 0 0 8px rgba(0, 0, 0, 0.42);
+}
+.flexbox .item:hover img {
+	opacity: 1;
 }
 
-#best-projects #projects .project-1 {
-	background-image: url("images/project-1.jpg"); /* The image used */
-	background-color: #cccccc; /* Used if the image is unavailable */
-	height: 25%; /* You must set a specified height */
-	background-position: center; /* Center the image */
-	background-repeat: no-repeat; /* Do not repeat the image */
-	background-size: cover; /* Resize the background image to cover the entire container */
+.flexbox .item:hover p {
+	visibility: visible;
 }
-#best-projects #projects .project-2 {
-	background-image: url("images/project-2.jpg"); /* The image used */
-	background-color: #cccccc; /* Used if the image is unavailable */
-	height: 25%; /* You must set a specified height */
-	background-position: center; /* Center the image */
-	background-repeat: no-repeat; /* Do not repeat the image */
-	background-size: cover; /* Resize the background image to cover the entire container */
+
+
+
+
+
+/* Media Queries */
+
+@media (max-width: 860px) {
+	.flexbox {
+		height: 220vw;
+	}
+	.flexbox .item {
+		width: 50%;
+	}
 }
-#best-projects #projects .project-3 {
-	background-image: url("images/project-3.jpg"); /* The image used */
-	background-color: #cccccc; /* Used if the image is unavailable */
-	height: 25%; /* You must set a specified height */
-	background-position: center; /* Center the image */
-	background-repeat: no-repeat; /* Do not repeat the image */
-	background-size: cover; /* Resize the background image to cover the entire container */
+@media (max-width: 667px) {
+	.flexbox {
+		height: auto;
+	}
+	.flexbox .item {
+		width: 100%;
+	}
 }
-#best-projects #projects .project-4 {
-	background-image: url("images/project-4.jpg"); /* The image used */
-	background-color: #cccccc; /* Used if the image is unavailable */
-	height: 25%; /* You must set a specified height */
-	background-position: center; /* Center the image */
-	background-repeat: no-repeat; /* Do not repeat the image */
-	background-size: cover; /* Resize the background image to cover the entire container */
-}
-#best-projects #projects .project-5 {
-	background-image: url("images/project-5.jpg"); /* The image used */
-	background-color: #cccccc; /* Used if the image is unavailable */
-	height: 25%; /* You must set a specified height */
-	background-position: center; /* Center the image */
-	background-repeat: no-repeat; /* Do not repeat the image */
-	background-size: cover; /* Resize the background image to cover the entire container */
-}
-#best-projects #projects .project-6 {
-	background-image: url("images/project-6.jpg"); /* The image used */
-	background-color: #cccccc; /* Used if the image is unavailable */
-	height: 25%; /* You must set a specified height */
-	background-position: center; /* Center the image */
-	background-repeat: no-repeat; /* Do not repeat the image */
-	background-size: cover; /* Resize the background image to cover the entire container */
-}
-#best-projects #projects .project-7 {
-	background-image: url("images/project-7.jpg"); /* The image used */
-	background-color: #cccccc; /* Used if the image is unavailable */
-	height: 25%; /* You must set a specified height */
-	background-position: center; /* Center the image */
-	background-repeat: no-repeat; /* Do not repeat the image */
-	background-size: cover; /* Resize the background image to cover the entire container */
-}
-#best-projects #projects .project-8 {
-	background-image: url("images/project-8.jpg"); /* The image used */
-	background-color: #cccccc; /* Used if the image is unavailable */
-	height: 25%; /* You must set a specified height */
-	background-position: center; /* Center the image */
-	background-repeat: no-repeat; /* Do not repeat the image */
-	background-size: cover; /* Resize the background image to cover the entire container */
-}
-#best-projects #projects .project-9 {
-	background-image: url("images/project-9.jpg"); /* The image used */
-	background-color: #cccccc; /* Used if the image is unavailable */
-	height: 25%; /* You must set a specified height */
-	background-position: center; /* Center the image */
-	background-repeat: no-repeat; /* Do not repeat the image */
-	background-size: cover; /* Resize the background image to cover the entire container */
-}
+
+
+
 
