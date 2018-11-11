@@ -154,11 +154,6 @@
 					</div>
 				</div>
 
-				<div class="owl-dots">
-					<div class="owl-dot active"><span></span></div>
-					<div class="owl-dot"><span></span></div>
-					<div class="owl-dot"><span></span></div>
-				</div>
 			</div>
 		</div>
 		<!-- Testimonials End -->
@@ -189,6 +184,65 @@
 			</div>
 		</div>
 		<!-- Clients End-->
+
+		<!-- Latest Blog -->
+		<div id="latest-blog" class="flex-container">
+			<h2>Latest Blog</h2>
+			<p>Donec orci sem, pretium ac dolor et, faucibus faucibus mauris. Etiam,pellentesque faucibus.
+				Vestibulum gravida volutpat ipsum non ultrices.
+			</p>
+			<div id="latest-blog-carousel" class="owl-carousel owl-theme owl-loaded">
+				<div class="owl-stage-outer">
+					<div class="owl-stage">
+						<div class="owl-item">
+							<div class="lb-img">
+								<img src="images/lb-image1.jpg">
+								<a class="bottomleft" href="#">nature</a>
+							</div>
+							<div class="lb-text">
+								<h3>Something I need to tell you</h3>
+								<p class="post-date">May 16, 2016</p>
+								<p>Mauris sed odio tincidunt, volutpat augue, 
+									commodo dui. Phasellus hendrerit condi 
+								ntum vehicula.</p>
+							</div>
+						</div>
+						<div class="owl-item">
+							<div class="lb-img">
+								<img src="images/lb-image2.jpg">
+								<a class="bottomleft" href="#">branding</a>
+							</div>
+							<div class="lb-text">
+								<h3>Are you doing The Right Way?</h3>
+								<p class="post-date">May 28, 2016</p>
+								<p>Curabitur et diam ut magna pulvinar euis 
+									mod. Sed metus purus, ornare id moltie, 
+								laoreet vitae magna.</p>
+							</div>
+						</div>
+						<div class="owl-item">
+							<div class="lb-img">
+								<img src="images/lb-image3.jpg">	
+								<a class="bottomleft" href="#">design</a>
+							</div>
+							<div class="lb-text">
+								<h3>Why you should Always First</h3>
+								<p class="post-date">june 01, 2016</p>
+								<p>Mauris sed odio tincidunt, volutpat augue, 
+									commodo dui. Phasellus hendrerit condi 
+								ntum vehicula.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="owl-dots">
+					<div class="owl-dot active"><span></span></div>
+					<div class="owl-dot"><span></span></div>
+					<div class="owl-dot"><span></span></div>
+				</div>
+			</div>
+		</div>	
+		<!-- Latest Blog End -->
 
 
 		<!-- Owl Carousel -->
@@ -232,6 +286,27 @@
 					},
 					1000: {
 						items: 5
+					}
+				}
+			})
+
+			$('#latest-blog-carousel').owlCarousel({
+				loop: true,
+				margin: 10,
+				// autoplay: true,
+				dotsEach: true,
+				autoplayHoverPause: true,
+				responsiveClass: true,
+				responsive: {
+					0: {
+						items: 1,
+					},
+					600: {
+						items: 2,
+					},
+					1000: {
+						items: 3,
+						dots: true,
 					}
 				}
 			})

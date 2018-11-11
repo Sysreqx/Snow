@@ -366,7 +366,7 @@ main #clients {
 }
 
 main #clients #clients-carousel .owl-stage {
-		display: flex;
+	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	padding: 8% 0;
@@ -378,7 +378,78 @@ main #clients #clients-carousel .owl-stage .owl-item {
 	justify-content: center;
 	align-items: center;
 }
+
+#clients-carousel .owl-item img
+{display:block;width: 60%;}
 /* Clients End*/
+
+/* Latest Blog */
+main #latest-blog {
+	align-items: center;
+	flex-direction: column;
+	margin-bottom: 15%;
+}
+
+main #latest-blog .owl-stage {
+	display: flex;
+}
+
+main #latest-blog .owl-item{
+	background: #fff;
+}
+
+main #latest-blog .owl-item .lb-text{
+	padding: 0 5% 0;
+}
+
+main #latest-blog h2{
+	
+	margin-top: 10%;
+	margin-bottom: 2%;
+
+}
+
+main #latest-blog >p{
+	
+	padding: 0 14% 5%;
+	text-align: center;
+
+}
+
+main #latest-blog .lb-img {
+	position: relative;
+} 
+
+main #latest-blog .bottomleft {
+	position: absolute;
+	bottom: 16px;
+	left: 16px;
+	font-size: 18px;
+	background: #252525;
+	padding: 3%;
+	text-decoration: none;
+}
+
+main #latest-blog .bottomleft:hover {
+	position: absolute;
+	bottom: 16px;
+	left: 16px;
+	font-size: 18px;
+	background: #252525;
+	padding: 3%;
+	text-decoration: none;
+	opacity: 0.9;
+}
+
+main #latest-blog .post-date {
+	
+    color: #171717;
+    text-transform: uppercase;
+    font-size: 12pt;
+
+}
+
+/* Latest Blog End */
 
 /* Owl Carousel */
 .owl-dots {
@@ -410,7 +481,7 @@ main #clients #clients-carousel .owl-stage .owl-item {
 }
 
 .owl-dot {outline: none;}
-/* Owl Carousel */
+/* Owl Carousel End */
 
 
 
